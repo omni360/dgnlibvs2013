@@ -1,0 +1,25 @@
+﻿生成启动时间为 2014/9/28 16:31:55。
+     1>项目“c:\Users\chunlei.hou\Documents\Visual Studio 2013\Projects\dll\Project1\Project1.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt app.cpp
+         app.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\Users\chunlei.hou\Documents\Visual Studio 2013\Projects\dll\Debug\dgnwriter.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\Users\chunlei.hou\Documents\Visual Studio 2013\Projects\dll\Debug\dgnwriter.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\Users\chunlei.hou\Documents\Visual Studio 2013\Projects\dll\Debug\dgnwriter.lib" /MACHINE:X86 Debug\app.obj
+     1>app.obj : error LNK2019: 无法解析的外部符号 "void __cdecl DGNFreeElement(void *,struct DGNElemCore *)" (?DGNFreeElement@@YAXPAXPAUDGNElemCore@@@Z)，该符号在函数 _main 中被引用
+     1>app.obj : error LNK2019: 无法解析的外部符号 "void __cdecl DGNClose(void *)" (?DGNClose@@YAXPAX@Z)，该符号在函数 _main 中被引用
+     1>app.obj : error LNK2019: 无法解析的外部符号 "int __cdecl DGNWriteElement(void *,struct DGNElemCore *)" (?DGNWriteElement@@YAHPAXPAUDGNElemCore@@@Z)，该符号在函数 _main 中被引用
+     1>app.obj : error LNK2019: 无法解析的外部符号 "void * __cdecl DGNCreate(char const *,char const *,int,double,double,double,int,int,char const *,char const *)" (?DGNCreate@@YAPAXPBD0HNNNHH00@Z)，该符号在函数 _main 中被引用
+     1>app.obj : error LNK2019: 无法解析的外部符号 "int __cdecl DGNUpdateElemCore(void *,struct DGNElemCore *,int,int,int,int,int)" (?DGNUpdateElemCore@@YAHPAXPAUDGNElemCore@@HHHHH@Z)，该符号在函数 _main 中被引用
+     1>app.obj : error LNK2019: 无法解析的外部符号 "struct DGNElemCore * __cdecl DGNCreateMultiPointElem(void *,int,int,struct DGNPoint *)" (?DGNCreateMultiPointElem@@YAPAUDGNElemCore@@PAXHHPAUDGNPoint@@@Z)，该符号在函数 _main 中被引用
+     1>app.obj : error LNK2019: 无法解析的外部符号 "struct DGNElemCore * __cdecl DGNCreateArcElem(void *,int,double,double,double,double,double,double,double,double,int *)" (?DGNCreateArcElem@@YAPAUDGNElemCore@@PAXHNNNNNNNNPAH@Z)，该符号在函数 _main 中被引用
+     1>app.obj : error LNK2019: 无法解析的外部符号 "struct DGNElemCore * __cdecl DGNCreateTextElem(void *,char const *,int,int,double,double,double,int *,double,double,double)" (?DGNCreateTextElem@@YAPAUDGNElemCore@@PAXPBDHHNNNPAHNNN@Z)，该符号在函数 _main 中被引用
+     1>app.obj : error LNK2019: 无法解析的外部符号 "struct DGNElemCore * __cdecl DGNCreateComplexHeaderFromGroup(void *,int,int,struct DGNElemCore * *)" (?DGNCreateComplexHeaderFromGroup@@YAPAUDGNElemCore@@PAXHHPAPAU1@@Z)，该符号在函数 _main 中被引用
+     1>app.obj : error LNK2019: 无法解析的外部符号 "struct DGNElemCore * __cdecl DGNCreateCellHeaderFromGroup(void *,char const *,short,short *,int,struct DGNElemCore * *,struct DGNPoint *,double,double,double)" (?DGNCreateCellHeaderFromGroup@@YAPAUDGNElemCore@@PAXPBDFPAFHPAPAU1@PAUDGNPoint@@NNN@Z)，该符号在函数 _main 中被引用
+     1>app.obj : error LNK2019: 无法解析的外部符号 "int __cdecl DGNAddMSLink(void *,struct DGNElemCore *,int,int,int)" (?DGNAddMSLink@@YAHPAXPAUDGNElemCore@@HHH@Z)，该符号在函数 _main 中被引用
+     1>app.obj : error LNK2019: 无法解析的外部符号 "int __cdecl DGNAddShapeFillInfo(void *,struct DGNElemCore *,int)" (?DGNAddShapeFillInfo@@YAHPAXPAUDGNElemCore@@H@Z)，该符号在函数 _main 中被引用
+     1>c:\Users\chunlei.hou\Documents\Visual Studio 2013\Projects\dll\Debug\dgnwriter.exe : fatal error LNK1120: 12 个无法解析的外部命令
+     1>已完成生成项目“c:\Users\chunlei.hou\Documents\Visual Studio 2013\Projects\dll\Project1\Project1.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.29

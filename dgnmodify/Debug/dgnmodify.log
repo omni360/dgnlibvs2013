@@ -1,0 +1,39 @@
+﻿生成启动时间为 2014/9/28 18:21:25。
+     1>项目“F:\code\c++\dgnlib\dgnmodify\dgnmodify.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt cpl_conv.cpp cpl_dir.cpp cpl_error.cpp cpl_multiproc.cpp cpl_path.cpp cpl_string.cpp cpl_vsil_simple.cpp cpl_vsisimple.cpp dgnfloat.cpp dgnhelp.cpp dgnopen.cpp dgnread.cpp dgnstroke.cpp dgnwrite.cpp
+         dgnwrite.cpp
+         dgnstroke.cpp
+         dgnread.cpp
+     1>f:\code\c++\dgnlib\dgnmodify\dgnread.cpp(1127): warning C4307: “-”: 整型常量溢出
+         dgnopen.cpp
+         dgnhelp.cpp
+         dgnfloat.cpp
+         cpl_vsisimple.cpp
+     1>f:\code\c++\dgnlib\dgnmodify\cpl_vsisimple.cpp(117): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 参见“fopen”的声明
+         cpl_vsil_simple.cpp
+     1>f:\code\c++\dgnlib\dgnmodify\cpl_vsil_simple.cpp(61): error C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _mkdir. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\direct.h(140) : 参见“mkdir”的声明
+         cpl_string.cpp
+     1>f:\code\c++\dgnlib\dgnmodify\cpl_string.cpp(436): error C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(168) : 参见“strerror”的声明
+         cpl_path.cpp
+     1>f:\code\c++\dgnlib\dgnmodify\cpl_path.cpp(181): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+         cpl_multiproc.cpp
+     1>f:\code\c++\dgnlib\dgnmodify\cpl_multiproc.cpp(360): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+         cpl_error.cpp
+     1>f:\code\c++\dgnlib\dgnmodify\cpl_error.cpp(197): error C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(337) : 参见“vsnprintf”的声明
+         cpl_dir.cpp
+         cpl_conv.cpp
+     1>f:\code\c++\dgnlib\dgnmodify\cpl_conv.cpp(814): error C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : 参见“strncpy”的声明
+         正在生成代码...
+     1>已完成生成项目“F:\code\c++\dgnlib\dgnmodify\dgnmodify.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.62
